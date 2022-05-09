@@ -1,0 +1,65 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+    font-size: 55px;
+    color: #899FD0;
+    margin-top: 150px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.body {
+    font-size: 26px;
+    color: #AEC1F0;
+    width: 60vw;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.paragraphWrapper {
+    display: inline-block;
+    text-align: left;
+}
+
+.body hr {
+    width: 60vw;
+    height: 1px;
+    border: none;
+    color: #AEC1F0; /* apprently for old IE */
+    background-color: #AEC1F0;
+}
+
+.accent {
+    color: #FC94A1;
+    text-decoration: none;
+    display: inline;
+    position: relative;
+    overflow: hidden;
+}
+
+.accent:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 100%;
+    bottom: -2px;
+    background: #FC94A1;
+    height: 2px;
+    transition-property: left right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+  
+.accent:hover:after,
+.accent:focus:after,
+.accent:active:after {
+    right: 0;
+}

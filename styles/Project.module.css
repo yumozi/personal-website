@@ -1,0 +1,24 @@
+.box {
+    height: 350px;
+    border: 1px solid #AEC1F0;
+    box-shadow: 1px 1px #AEC1F0;
+    border-radius: 15px;
+}
+
+.box:hover {
+    transform: scale(1.05); 
+    box-shadow: 2px 2px #AEC1F0;
+}
+
+.text {
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+}
+
+.text h3 {
+    color: #899FD0;
+}
+
+.text p {
+    color: #AEC1F0;
+}
