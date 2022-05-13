@@ -25,22 +25,7 @@
 .body {
     margin: 50px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-columns: repeat(auto-fill, 325px);
     justify-content: center;
     grid-gap: 50px;
 }
-
-.project {
-    height: 350px;
-    border: 1px solid #AEC1F0;
-    box-shadow: 1px 1px #AEC1F0;
-    border-radius: 15px;
-}
-
-.project:hover {
-    transform: scale(1.05); 
-    box-shadow: 2px 2px #AEC1F0;
-}
-.projectEmpty {
-    visibility: hidden;
-  }

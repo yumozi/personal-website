@@ -1,8 +1,9 @@
 .box {
-    height: 350px;
+    height: 400px;
     border: 1px solid #AEC1F0;
     box-shadow: 1px 1px #AEC1F0;
     border-radius: 15px;
+    overflow: hidden;
 }
 
 .box:hover {
@@ -10,9 +11,16 @@
     box-shadow: 2px 2px #AEC1F0;
 }
 
+.imageContainer {
+    margin: 0;
+    width: 325px;
+    height: 160px;
+    position: relative;
+}
+
 .text {
     font-family: 'Lato', sans-serif;
-    padding: 10px;
+    padding: 5px 10px;
 }
 
 .text h3 {
@@ -20,5 +28,6 @@
 }
 
 .text p {
+    font-size: 18px;
     color: #AEC1F0;
 }
