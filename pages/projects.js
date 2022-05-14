@@ -10,14 +10,14 @@ export default function Projects() {
       <hr className={styles.line} />
       <div className={styles.body}> 
         <Project
-          image="/images/background.png" 
+          image="/images/Website.png" 
           title="Personal Website" 
-          description="asdasdsd"
+          description="I developed this website using Next.js as a way to showcase my projects. It is still a work in progress as I will slowly add more contents and features to it, such as responsive design for better mobile support."
         />
         <Project
-          image="/images/background.png" 
+          image="/images/WorldChat.png" 
           title="World Chat" 
-          description="asdasdsd"
+          description="This is a web social media that I am developing to promote connectedness among people in the world. It is still a work in progress. The frontend is built using React and the data is managed with MongoDB."
         />
         <Project
           image="/images/Coveet.png" 
@@ -40,9 +40,9 @@ export default function Projects() {
           description="A game where players control a boy who walks through an unknown ruin all by himself. A small Unity project that helped me to  learned Unity's lighting, audio, and animation system in-depth."
         />
         <Project 
-          image="/images/background.png" 
+          image="/images/FTC.jpg" 
           title="FIRST Tech Challenge" 
-          description="asdasdsd"
+          description="I led our high school's robotics team to compete in the FIRST Tech Challenge. Outside of being the captain, I was responsible to program the robot's autonomous and remote control mode using Java.I also developed the object recognition feature using Vuforia."
         />
         <Project 
           image="/images/RoboCupHome.png" 
