@@ -1,0 +1,17 @@
+.box {
+    margin-top: 50px;
+    width: 70%;
+    height: auto;
+    background-color: #E9E8EE;
+    border-radius: 15px;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+.box:hover {
+    outline: 2px solid #AEC1F0;
+}
+
+.box h3 {
+    font-style: italic;
+}
