@@ -6,7 +6,7 @@ export default function Project(props) {
     <div className={styles.box}>
         {/* Box size: 325 x 400 */}
         <div className={styles.imageContainer}>
-          <Image src={props.image} layout='fill'/> 
+          <Image priority={true} src={props.image} layout='fill'/> 
         </div>
         <div className={styles.text}>
             <h3>{props.title}</h3>
