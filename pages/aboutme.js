@@ -9,7 +9,7 @@ export default function AboutMe() {
       </div>
       <div className={styles.body}>
         <div className={styles.paragraphWrapper}>
-          <p>I am a dreamer, but I don't just dream. </p>
+          <p>I am a dreamer, but I don&apos;t just dream. </p>
           <p>I am eager to realize the future that I want to see. A future with much more possibilities to offer than what we have right now.</p>
           <p>When I discovered coding at a young age, I knew this was the tool that I needed to create the things that I want to create. Since then, I had been building robots of various kinds, different apps, websites, games...</p>
           <p>To learn more about the projects that I had done, check out my <Link href="/projects"><a className={styles.accent}>Projects</a></Link> page.</p>
