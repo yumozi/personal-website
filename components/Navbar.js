@@ -44,9 +44,9 @@ const Navbar = () => {
             <p>xueeric1223@gmail.com</p>
         </div>
         <div className={styles.icons}>
-            <a target="_blank" href="https://github.com/yumozi"><AiOutlineGithub size={40} color={'#899FD0'}/></a>
-            <a target="_blank" href="https://www.linkedin.com/in/eric-xue-4928a81a0/"><AiOutlineLinkedin size={40} color={'#899FD0'}/></a>
-            <a target="_blank" href="https://twitter.com/xYumozix"><AiOutlineTwitter size={40} color={'#899FD0'}/></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/yumozi"><AiOutlineGithub size={40} color={'#899FD0'}/></a>
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/eric-xue-4928a81a0/"><AiOutlineLinkedin size={40} color={'#899FD0'}/></a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/xYumozix"><AiOutlineTwitter size={40} color={'#899FD0'}/></a>
         </div>
     </div>
   );
