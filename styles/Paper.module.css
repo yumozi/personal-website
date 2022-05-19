@@ -41,6 +41,14 @@
     color: inherit;
 }
 
+.links a:visited {
+    color: inherit;
+}
+
+.links a:focus {
+    color: inherit;
+}
+
 .links a:hover {
     outline: 2px solid #899FD0;
 }
