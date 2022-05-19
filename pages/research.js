@@ -15,8 +15,8 @@ export default function Research() {
         publisher="International Conference on Artificial Intelligence in Information and Communication"
         authors="Eric Xue, Tae Soo Kim"
         links={[
-          <a href="/papers/GranularAnalysisOfPretrainedObjectDetectors.pdf" target="_blank" className={styles.accent}>PDF <GoLinkExternal/></a>,  
-          <a href="https://ieeexplore.ieee.org/document/9722705/" target="_blank" >IEEE <GoLinkExternal/></a>
+          <a href="/papers/GranularAnalysisOfPretrainedObjectDetectors.pdf" target="_blank" rel="noreferrer" className={styles.accent}>PDF <GoLinkExternal/></a>,  
+          <a href="https://ieeexplore.ieee.org/document/9722705/" target="_blank" rel="noreferrer">IEEE <GoLinkExternal/></a>
         ]}
       />
     </div>
