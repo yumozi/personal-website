@@ -37,6 +37,10 @@
     text-decoration: none;
 }
 
+.links a:link {
+    color: inherit;
+}
+
 .links a:visited {
     color: inherit;
 }
