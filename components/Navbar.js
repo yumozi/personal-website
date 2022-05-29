@@ -6,13 +6,13 @@ import {AiOutlineGithub, AiOutlineLinkedin, AiOutlineTwitter} from 'react-icons/
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-        <div className={styles.ears}>
-            <Image
-                priority
-                src="/images/ears.png"
-                height={165}
-                width={165}
-            />
+        <div className={styles.earsWrapper}>
+                <Image
+                    priority
+                    src="/images/ears.png"
+                    className={styles.image}
+                    layout='fill'
+                />
         </div>
         <div className={styles.profile}>
             <Image
@@ -44,9 +44,9 @@ const Navbar = () => {
             <p>xueeric1223@gmail.com</p>
         </div>
         <div className={styles.icons}>
-            <a target="_blank" rel="noreferrer" href="https://github.com/yumozi"><AiOutlineGithub size={40} color={'#899FD0'}/></a>
-            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/eric-xue-4928a81a0/"><AiOutlineLinkedin size={40} color={'#899FD0'}/></a>
-            <a target="_blank" rel="noreferrer" href="https://twitter.com/xYumozix"><AiOutlineTwitter size={40} color={'#899FD0'}/></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/yumozi"><AiOutlineGithub color={'#899FD0'} className={styles.icon}/></a>
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/eric-xue-4928a81a0/"><AiOutlineLinkedin color={'#899FD0'} className={styles.icon}/></a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/xYumozix"><AiOutlineTwitter color={'#899FD0'} className={styles.icon}/></a>
         </div>
     </div>
   );
