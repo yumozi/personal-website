@@ -6,9 +6,9 @@
 }
 
 .name {
-    padding-top: 150px;
-    padding-left: 200px;
-    font-size: 80px;
+    padding-top: 12vh;
+    padding-left: 8vw;
+    font-size: 4em;
     font-weight: 600;
     background-color: #AEC1F0;
     overflow: hidden;
@@ -24,8 +24,8 @@
 .line {
     border-top: 3px solid #AEC1F0;
     width: 80%;
-    margin-left: 50px;
-    margin-top: 40px;
+    margin-left: 3vw;
+    margin-top: 3vh;
 }
 
 .content{
@@ -34,12 +34,11 @@
 }
 
 .aboutme {
-    margin-left: 200px;
-    margin-top: 50px;
+    margin-left: 8vw;
+    margin-top: 5vh;
     color: #AEC1F0;
-    font-size: 30px;
-    min-width: 550px;
-    width: 720px;
+    font-size: 1.5em;
+    width: 30vw;
     display: inline-block;
     text-align: left;
 }
@@ -48,12 +47,11 @@
     color: #FC94A1;
 }
 
-
 .learnmore {
-    margin-left: 200px;
-    margin-top: 25px;
+    margin-left: 8vw;
+    margin-top: 3vh;
     border-radius: 25px;
-    width: 250px;
+    width: 14vw;
     border: 3px solid #AEC1F0;
     text-align: center;
 }
@@ -68,14 +66,12 @@
     display:inline-block;
     height: 100%;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 40px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 2.5em;
     font-weight: 500;
 }
 
 .image {
-    margin-left: 100px;
-    min-width: 506px;
-    min-height: 270px;
+    margin-left: 4vw;
 }
