@@ -12,7 +12,7 @@
 }
 
 .earsWrapper {
-    margin-top: 3vh;
+    margin-top: 5%;
     height: 0;
     padding-bottom: 40%;
     width: 40%;
@@ -25,13 +25,13 @@
     width: 55%;
     padding-bottom: 55%; 
     border: 2px solid #CCC;
-    border-radius: 2vw;
+    border-radius: 20%;
     overflow: hidden;
 }
 
 .navbar__list {
-    margin-top: 5vh;
-    margin-bottom: 0vh;
+    margin-top: 10%;
+    margin-bottom: 0;
     width: 60%;
     font-size: 120%;
     padding: 0;
@@ -41,8 +41,8 @@
 .navbar__list li {
     border: 2px solid #899FD0;
     background: transparent;
-    margin-bottom: 4vh;
-    border-radius: 2vh;
+    margin-bottom: 20%;
+    border-radius: 1vw;
     height: 10%;
     align-items: center;
 }
@@ -55,12 +55,12 @@
     text-decoration: none;
     color: #899FD0;
     display:inline-block;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .contact {
-    font-size: 1em;
+    font-size: 100%;
     color: #899FD0;
 }
 
@@ -70,17 +70,17 @@
 }
 
 .contact p {
-    margin-top: 1vh;
+    margin-top: 5%;
 }
 
 .icons {
     display: flex;
-    margin-top: 1vh;
+    margin-top: 3%;
     width: 50%;
     justify-content: space-between;
 }
 
 .icon {
-    font-size: 3.5vh;
+    font-size: 200%;
 }
 
