@@ -9,15 +9,15 @@
 
 .title {
     width: 100%;
-    font-size: 55px;
+    font-size: 4em;
     color: #899FD0;
-    margin-top: 150px;
+    margin-top: 10vh;
     white-space: nowrap;
     text-align: center;
 }
 
 .body {
-    font-size: 26px;
+    font-size: 1.5em;
     color: #AEC1F0;
     width: 60vw;
     margin-top: 35px;
