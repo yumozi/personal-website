@@ -16,7 +16,7 @@ export default function AboutMe() {
           <p>These days, the majority of my attention is focused on AI. In addition to building AI applications, I also conduct AI-related research. Visit the <Link href="/research"><a className={styles.accent}>Research</a></Link> page to learn more about my published and ongoing research.</p>
           <p>In my personal life, I enjoy a variety of hobbies. Click on <Link href="/personal"><a className={styles.accent}>Personal</a></Link> to find out! </p>
           <hr className={styles.line} />
-          <p>Also, you can download a copy of my resume <a href="/resume/LongResumeEric.pdf" target="_blank" rel="noreferrer" className={styles.accent}>here</a>.</p>
+          <p>Also, you can download a copy of my resume <a href="/resume/ResumeEricXue.pdf" target="_blank" rel="noreferrer" className={styles.accent}>here</a>.</p>
         </div>
       </div>
     </div>
