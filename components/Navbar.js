@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className={styles.icons}>
             <a target="_blank" rel="noreferrer" href="https://github.com/yumozi"><AiOutlineGithub color={'#899FD0'} className={styles.icon}/></a>
             <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/eric-xue-4928a81a0/"><AiOutlineLinkedin color={'#899FD0'} className={styles.icon}/></a>
-            <a target="_blank" rel="noreferrer" href="https://twitter.com/xYumozix"><AiOutlineTwitter color={'#899FD0'} className={styles.icon}/></a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/xueeric0"><AiOutlineTwitter color={'#899FD0'} className={styles.icon}/></a>
         </div>
     </div>
   );
