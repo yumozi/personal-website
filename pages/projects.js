@@ -10,6 +10,16 @@ export default function Projects() {
       <hr className={styles.line} />
       <div className={styles.body}> 
         <Project
+          image="/images/Miraiai.png" 
+          title="Mirai" 
+          description="A conversational AI platform aiming to create realistic characters."
+        />
+        <Project
+          image="/images/Tweeter.png" 
+          title="Tweeter" 
+          description="A small GPT-based AI tool that helps you formulate any ideas into a tweet."
+        />
+        <Project
           image="/images/Website.png" 
           title="Personal Website" 
           description="I developed this website using Next.js as a way to showcase my projects. It is still a work in progress as I will slowly add more contents and features to it, such as responsive design for better mobile support."

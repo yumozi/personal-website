@@ -11,6 +11,11 @@ export default function Research() {
     <hr className={styles.line} />
     <div className={styles.body}>
       <Paper 
+        title="Towards Adversarially Robust Condensed Dataset by Curvature Regularization"
+        publisher="Preparing for ICML 2024"
+        authors="Eric Xue, Haoyang Liu, Yifan Shen, Haohan Wang"
+      />
+      <Paper 
         title="Granular Analysis of Pretrained Object Detectors"
         publisher="International Conference on Artificial Intelligence in Information and Communication"
         authors="Eric Xue, Tae Soo Kim"

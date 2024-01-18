@@ -19,7 +19,7 @@ export default function Home() {
               I have strong interests in <span className={styles.accent}>AI/machine learning</span>. I also have a lot of experience in robotics, app development, and game development. 
             </p>
             <p>
-              Outside of my studies, I enjoy video games, anime, reading, and cooking.
+              Outside of my studies, I enjoy video games, anime, and reading fiction novels.
             </p>
           </div>
           <div className={styles.learnmore}>

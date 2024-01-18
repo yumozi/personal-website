@@ -8,7 +8,9 @@ export default function Personal() {
     </div>
     <hr className={styles.line} />
     <div className={styles.body}>
-        Coming Soon!
+      <div className={styles.paragraphWrapper}>
+        <p>Coming Soon! (I know, disappointing)</p>
+      </div>
     </div>
   </div>
   );
